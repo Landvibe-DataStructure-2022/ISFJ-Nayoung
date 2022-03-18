@@ -46,30 +46,30 @@ public:
 		}
 	}
 };
-//int main() {
-//	int N;
-//	string str;
-//	Stack sta;
-//	cin >> t >> N;
-//	while (N--) {
-//		cin >> str;
-//		if (str == "empty") {
-//			if (sta.empty() == true) {
-//				cout << 1 << endl;
-//			}
-//			else {
-//				cout << 0 << endl;
-//			}
-//		}
-//		else if (str == "top") {
-//			sta.top();
-//		}
-//		else if (str == "push") {
-//			int x; cin >> x;
-//			sta.push(x);
-//		}
-//		else if (str == "pop") {
-//			sta.pop();
-//		}
-//	}
-//}
+int main() {
+	int N;
+	string str;
+	Stack sta;
+	cin >> t >> N;
+	while (N--) {
+		cin >> str;
+		if (str == "empty") {
+			if (sta.empty() == true) {
+				cout << 1 << endl;
+			}
+			else {
+				cout << 0 << endl;
+			}
+		}
+		else if (str == "top") {
+			sta.top();
+		}
+		else if (str == "push") {
+			int x; cin >> x;
+			sta.push(x);
+		}
+		else if (str == "pop") {
+			sta.pop();
+		}
+	}
+}
