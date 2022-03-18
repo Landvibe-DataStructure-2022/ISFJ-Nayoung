@@ -81,10 +81,10 @@ public:
 		int s_size = str.size();
 
 		for (int i = 0; i < s_size; i++) {
-			if (str[i] - '0' > 0 && str[i] - '0' < 10) { // ÇÇ¿¬»êÀÚ
+			if (str[i] - '0' > 0 && str[i] - '0' < 10) { // Ã‡Ã‡Â¿Â¬Â»ÃªÃ€Ãš
 				push(str[i] - '0');
 			}
-			else if (str[i] == '+' || str[i] == '-' || str[i] == '*') { // ¿¬»êÀÚ
+			else if (str[i] == '+' || str[i] == '-' || str[i] == '*') { // Â¿Â¬Â»ÃªÃ€Ãš
 				B = top(); pop();
 				A = top(); pop();
 				if (str[i] == '+')
